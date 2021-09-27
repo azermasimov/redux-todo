@@ -1,0 +1,13 @@
+input {
+  font-size: 20px !important;
+}
+
+.plus {
+  font-size: 35px !important;
+  cursor: pointer;
+}
+
+.num-span {
+  font-weight: bold !important;
+  font-size: 20px !important;
+}
