@@ -28,7 +28,7 @@ const App = (props) => {
                     </form>
                 </div>
                 <div className="ui grid column">
-                    <ToDo />
+                    <ToDo listItems={} />
                     {/* <button onClick={clearAll} className="ui button right floated">Clear All</button> */}
                 </div>
             </div>
