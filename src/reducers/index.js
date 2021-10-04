@@ -1,13 +1,8 @@
-import { connect } from 'react-redux';
 import { combineReducers } from 'redux';
-
-const todos = (state = [], action) => {
-    if (action.type === "ADD_TODO") {
-        return [...state, action.todo];
-    }
-    return state;
-}
+import { inputReducer } from '../reducers/inputReducer';
+import { todoReducer } from './todoReducer';
 
 export default combineReducers({
-    todos,
+    todos: todoReducer,
+    todo: inputReducer,
 });
